@@ -31,6 +31,17 @@
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
 // Include comments above each method call explaining the impact and return value of that method.
 
+//vars declared
+var testString1 = "Testing, testing, 1, 2, 3";
+var testString2 = "Is this thing on?";
+//toLowerCase () method called on testString1
+//No arguments passed; toLowerCase() has one job to lowercase all letters that exist in the String  
+//return value is "testing, testing, 1, 2, 3"
+console.log(testString1.toLowerCase());
+//endsWith() method called on testString2
+//No arguments passed; has one job to check if "Is this thing on?" string ends with "on?"
+console.log(testString2.endsWith("on?"));
+
 // EXAMPLE
 // The startsWith() method is called on the firstName variable, which stores the string object "Jeff". 
 // The startsWith() method returns true if the data in the firstName variable starts with the argument passed in.
@@ -38,7 +49,6 @@
 // The console.log() statements prints the return value of the startsWith() method (true) to the console.
 var firstName = "Jeff";
 console.log(firstName.startsWith("J"));
-
 
 
 // SECTION 3: Calling methods on variables assigned to arrays.
