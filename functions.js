@@ -5,12 +5,28 @@
 
 // 1: Write a function named greeting that returns a string with a general greeting. 
 
+function greeting() {
+  return "Hi, nice to meet you.";
+}
+console.log(greeting());
 
 // 2: Write a function named customGreeting that returns a greeting WITH a specific name.
 
+var myName = "Toby";
+function customGreeting() {
+  return "Hello, " + myName + "." + " Great to finally meet you.";
+}
+console.log(customGreeting());
 
 // 3: Write a function named greetPerson that takes in 3 strings, a first, middle, and last name, and returns a sentence with the full name.
 
+function greetPerson() {
+  var firstName = "Benjamin";
+  var middleName = "Michael";
+  var lastName = "Wehrend";
+  return "Hey there, " + firstName + " " + middleName + " " + lastName + ".";
+}
+console.log(greetPerson());
 
 // 4: Write a function named square that takes in one number, and returns the square of that number.
 // BONUS: Print a sentence that interpolates the return value of your square function.
