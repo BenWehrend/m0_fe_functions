@@ -56,3 +56,17 @@ console.log(firstName.startsWith("J"));
 // Call a different built-in JavaScript method on each of your variables. 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 // Include comments above each method call explaining the impact and return value of that method.
+
+//defines var firstNames/lastNames
+var firstNames = ["Rachel" , " Robert" , " Rick"];
+var lastNames = ["Smith" , " Jackson" , " Brown"];
+//startsWith() function called on all elements in array stored in firstNames[]
+//startsWith method is true if "Rachel", "Robert", and "Rick" start with "R"
+//returns value is therefore true
+var nameIncludes = firstNames[0].startsWith("R");
+console.log(nameIncludes);
+//.length function is called on all items in array nameLength
+//.length determines if nameLength[] elements are greater than 7 characters in length
+//return value is therefore false
+var nameLength = lastNames[0].length > 7;
+console.log(nameLength);
