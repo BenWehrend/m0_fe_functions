@@ -12,7 +12,7 @@ var myName = "Ben";
 function askForName() {
   console.log("Hello, what is your name? " + "Nice to meet you, " + myName);
 }
-//added myName var and second message to greet them by name.
+//added myName var and second message to greet them by name. Otherwise it's simply a message asking for a name.
 askForName();
 
 
@@ -21,7 +21,7 @@ function addThreeNums(first, second, third) {
   var sum = first + second + third;
   return sum;
 }
-//added console.log() so you can see the results.
+//added console.log() so you can see the results. Otherwise, you can't be sure if correct. 
 console.log(addThreeNums(1, 2, 3));
 console.log(addThreeNums(4, 2, 7));
 
