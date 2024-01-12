@@ -31,6 +31,11 @@ console.log(greetPerson());
 // 4: Write a function named square that takes in one number, and returns the square of that number.
 // BONUS: Print a sentence that interpolates the return value of your square function.
 
+var num1 = 25;
+function square(num1) {
+  return num1 * num1;
+}
+console.log("The square is equal to: " + square(num1));
 
 // 5: Write a function named checkStock that satisfies the following interaction pattern:
 // Hint: You will only write one checkStock function that checks the quantity and then prints the corresponding statement.
