@@ -10,13 +10,19 @@
 
 
 "Hello World".includes("Hello");
-
+//includes() method is called on string "Hello World"
+//No arguments passed; includes() has one job to check if "Hello" exists in "Hello World" 
+//return value is true
 
 "Hello World".endsWith("Hello");
-
+//endsWith() method is called on "Hello World" string
+//No arguments passed; has one job to check if "Hello World" string ends with "Hello"
+//return value is false
 
 "Hello World".endsWith("rld");
-
+//endsWith() method is called on "Hello World" string
+//No arguments passed; has one job to check if "Hello World" string ends with "rld"
+//return value is true
 
 
 // SECTION 2: Calling methods on variables assigned to strings.
