@@ -18,12 +18,13 @@ askForName();
 
 // EX 2:
 function addThreeNums(first, second, third) {
-var sum = first + second + third
-return sum;
-      }
+  var sum = first + second + third;
+  return sum;
+}
+//added console.log() so you can see the results.
+console.log(addThreeNums(1, 2, 3));
+console.log(addThreeNums(4, 2, 7));
 
-addThreeNums(1, 2, 3);
-addThreeNums(4, 2, 7);
 
 
 // EX 3:
