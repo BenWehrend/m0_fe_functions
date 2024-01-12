@@ -8,9 +8,12 @@
 
 
 // EX 1:
-function askForName() { console.log("Hello, what is your name?") }
-
-askForName()
+var myName = "Ben";
+function askForName() {
+  console.log("Hello, what is your name? " + "Nice to meet you " + myName);
+}
+//added myName var and second message to greet them by name.
+askForName();
 
 
 // EX 2:
