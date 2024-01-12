@@ -10,7 +10,7 @@
 // EX 1:
 var myName = "Ben";
 function askForName() {
-  console.log("Hello, what is your name? " + "Nice to meet you " + myName);
+  console.log("Hello, what is your name? " + "Nice to meet you, " + myName);
 }
 //added myName var and second message to greet them by name.
 askForName();
