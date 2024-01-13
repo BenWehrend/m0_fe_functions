@@ -11,17 +11,17 @@
 
 "Hello World".includes("Hello");
 //includes() method is called on string "Hello World"
-//No arguments passed; includes() has one job to check if "Hello" exists in "Hello World" 
+//"Hello" argument is passed; determines if string "Hello World" contains "Hello"
 //return value is true
 
 "Hello World".endsWith("Hello");
 //endsWith() method is called on "Hello World" string
-//No arguments passed; has one job to check if "Hello World" string ends with "Hello"
+//"Hello" argument passed; has one job to check if "Hello World" string ends with "Hello"
 //return value is false
 
 "Hello World".endsWith("rld");
 //endsWith() method is called on "Hello World" string
-//No arguments passed; has one job to check if "Hello World" string ends with "rld"
+//"rld" argument passed; has one job to check if "Hello World" string ends with "rld"
 //return value is true
 
 
