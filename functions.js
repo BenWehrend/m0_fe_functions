@@ -56,6 +56,21 @@ function checkStock(quantity, item) {
 }
 console.log(checkStock());
 
+Revised:
+function checkStock(quantity, item) {
+  if (quantity >= 4) {
+    return item + " is stock.";
+  }
+  else if (quantity === 0) {
+    return item + " - OUT of stock.";
+  }
+  else {
+    return item + " - running LOW.";
+  }
+}
+
+
+
 checkStock(4, "Coffee");
 // => "Coffee is stocked"
 checkStock(3, "Tortillas");
